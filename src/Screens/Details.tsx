@@ -27,7 +27,7 @@ const DetailScreen = () => {
             }>{` ${userData.first_name} ${userData.last_name}`}</Text>
         </View>
         <View style={styles.rowStyle}>
-          <Text style={styles.textTitle}>Correo electronico:</Text>
+          <Text style={styles.textTitle}>Correo electrónico:</Text>
           <Text style={styles.textSubTitle}>{` ${userData.email} `}</Text>
         </View>
       </View>
@@ -43,7 +43,6 @@ const styles = StyleSheet.create({
   },
   infoContainer: {
     flexDirection: 'column',
-    aligneItems: 'center',
     justifyContent: 'space-around',
     marginTop: 10,
     height: 100,

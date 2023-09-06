@@ -1,7 +1,7 @@
 import {useNavigation} from '@react-navigation/native';
 import React from 'react';
 import {FlatList, SafeAreaView, StyleSheet} from 'react-native';
-import RowUserItem from '../components/RowUserItem';
+import RowUserItem from '../Components/RowUserItem';
 import useList from '../hooks/useList';
 
 const Home = () => {
